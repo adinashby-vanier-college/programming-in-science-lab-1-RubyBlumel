@@ -12,7 +12,7 @@ def input_output():
     pass  # Replace with your code
 
 
- Function 1: Write a simple Hello World program
+ #Function 1: Write a simple Hello World program
 # This function should print "Hello World" to the screen.
 def hello_world():
     print("Hello World")
