@@ -17,7 +17,7 @@ print("Hello World")
 
 #Function 2:
 
-ame = input("What is your name? ")
+name = input("What is your name? ")
 age = int(input("What is your age? "))          
 height = float(input("How tall are you in feet? "))  
 
