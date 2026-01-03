@@ -13,7 +13,7 @@ def input_output():
 
 
  #function 1:
-print("hello_world")
+print("Hello, World!")
 
 #function 2:
 name = str(input("what is your name? "))
