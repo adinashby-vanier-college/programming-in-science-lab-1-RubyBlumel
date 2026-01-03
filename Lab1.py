@@ -16,10 +16,11 @@ print("Hello World")
 
 
 #Function 2:
-name = float(input("what is your name?"))
-age = int(input("what is your age"))
-height = int(input("how tall are you in feet"))
 
-print("your name is " + name)
-print("and you are " + age + " years old")
-print("you are " + height + " feet tall" )
+ame = input("What is your name? ")
+age = int(input("What is your age? "))          
+height = float(input("How tall are you in feet? "))  
+
+print(f"Your name is {name}")
+print(f"And you are {age} years old")
+print(f"You are {height} feet tall")
