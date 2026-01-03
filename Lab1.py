@@ -12,14 +12,17 @@ def input_output():
     pass  # Replace with your code
 
 
- #function 1:
-print("Hello, World!")
+def hello_world():
+    print("Hello, World!")
 
-#function 2:
-name = str(input("what is your name? "))
-age = int(input("how old are you? "))
-height = float(input("how tall are you in feet? ")
 
-print("your name is" + name)
-print("you are " + age + " years old")
-print("you are " + height + " feet tall")
+# Function 2: 
+def input_output():
+    name = input("What is your name? ")
+    age = int(input("How old are you? "))
+    height = float(input("How tall are you in feet? "))
+
+    print(f"Your name is {name}")
+    print(f"You are {age} years old")
+    print(f"You are {height} feet tall")
+
