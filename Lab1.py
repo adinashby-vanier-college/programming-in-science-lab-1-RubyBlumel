@@ -12,19 +12,6 @@ def input_output():
     pass  # Replace with your code
 
 
-# #Function 1:
-# print("Hello World")
-
-
-# #Function 2:
-# name = input("what is your name?")
-# age = input("what is your age")
-# height = input("how tall are you in feet")
-
-# print("your name is " + name)
-# print("and you are " + age + " years old")
-# print("you are " + height + " feet tall" )
-
 #function 1
 print("Hello, World!")
 
