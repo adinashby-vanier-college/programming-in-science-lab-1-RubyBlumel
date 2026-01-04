@@ -3,10 +3,11 @@ def hello_world():
 
 
 def input_output():
-    name = input()
-    age = input()
-    height = input()
+    name = str(input("what is your name?"))
+    age = int(input("what is your age"))
+    height = float(input("how tall are you in feet"))
 
-    print(f"Hello, {name}!")
-    print(f"You are {age} years old.")
-    print(f"Your height is {height} meters.")
+    print("your name is " + name)
+    print("and you are " + str(age) + " years old")
+    print("you are " + str(height) + " feet tall" )
+
