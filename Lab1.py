@@ -11,7 +11,8 @@ def input_output():
     age = int(input("what is your age"))
     height = float(input("how tall are you in feet"))
 
-    print("your name is " + name)
-    print("and you are " + str(age) + " years old")
-    print("you are " + str(height) + " feet tall" )
+    print("Hello, " + name + "!")
+    print("You are " + str(age) + " years old.")
+    print("Your height is " + str(height) + " meters." )
 
+ 
