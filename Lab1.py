@@ -10,3 +10,15 @@ def hello_world():
 def input_output():
     # TODO: Implement this function
     pass  # Replace with your code
+
+#function 1
+hello_world(print("Hello, World!")
+
+#function 2
+input_output(name = input("what is your name?")
+age = input("what is your age")
+height = input("how tall are you in feet")
+
+print("your name is " + name)
+print("and you are " + age + " years old")
+print("you are " + height + " feet tall" ))
