@@ -3,12 +3,12 @@ def hello_world():
 
 
 def input_output():
-    name = input()
-    age = int(input())
-    height = float(input())
+name = str(input("what is your name?"))
+age = int(input("what is your age"))
+height = float(input("how tall are you in feet"))
 
-    # Follow structure: first line has multiple colons
-    print("Name: " + name + " | Age: " + str(age) + " | Height: " + str(height))
-    # Additional lines as simple values
-    print("Age: " + str(age))
-    print("Height: " + str(height))
+print("your name is " + name)
+print("and you are " + str(age) + " years old")
+print("you are " + str(height) + " feet tall" )
+
+ 
