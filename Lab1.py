@@ -7,10 +7,6 @@ def input_output():
     age = int(input())
     height = float(input())
 
-    result = (
-        f"Your name is {name}\n"
-        f"You are {age} years old\n"
-        f"You are {height} feet tall"
-    )
-
-    return result
+    print("your name is " + name)
+    print("and you are " + str(age) + " years old")
+    print("you are " + str(height) + " feet tall")
